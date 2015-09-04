@@ -1,0 +1,105 @@
+OSSN - OPEN SOURCE SOCIAL NETWORK 3.3
+
+Bugfixes:
+
+* When installing components it show success for lower version #510
+* Fresh installation of v3.2 still shows old version, v3.0, Reported by Softaculous Team.
+* Improve component installer language strings.
+
+
+OSSN - OPEN SOURCE SOCIAL NETWORK 3.2
+
+Bugfixes:
+
+* Ossn v3.0 components versions compatibility issue on v3.x
+* Fix typo in language strings.
+
+Thanks to David Orwig for reporting issues https://www.opensource-socialnetwork.org/u/David111567
+
+OSSN - OPEN SOURCE SOCIAL NETWORK 3.1
+
+Bugfixes:
+
+* Site pages didn't updating pages #482
+* Privacy option is empty #481
+* Fix old views paths to new plugin paths #483
+* Ossn notification 'mark as read' missing translation #484
+* Security fix : if user is deleted logout from his session.
+* Can't install v3 on host having port #485
+* Blank post when have a tabulation in text #494
+* HTTP external css in themes with HTTPS site #495
+* Home link in main site and admin top bar #499
+* Security fix: FollowSymlinks does not protect against malicious links into other domain's directories, 
+  use +SymLinksIfOwnerMatch. (reported by https://github.com/hazyapps)  #507 
+* View all comments shows 10 comments only.
+
+OSSN - OPEN SOURCE SOCIAL NETWORK 3.01
+
+Bugfixes:
+
+* Exception 'OssnDatabaseException' with message 'Column 'id' in order clause is ambiguous
+
+OSSN - OPEN SOURCE SOCIAL NETWORK 3.0
+
+Changes from 3.0 development till stable version:
+
+Bugfixes:
+
+ * Can not delete profile cover #427.
+ * Don't listup all users if search query is empty.
+ * Mod_rewrite issue, generate a .htaccess file before installation #432.
+ * Redirect website to absolute url, no more ajax errors #458
+ * Flush cache didn't flush the plugins path #460.
+ * Show a confirmation message before delete component #444.
+ * Ossn system messages css issue on front end #443.
+ * Show a loading icon on registration submit #464.
+ * During registration even if gender is selected its marked unselected #465.
+ * Cancel friendship' button colliding with user name #279.
+ * Ossnblack theme can't read registration message #304.
+ * PHP Fatal error:  Call to a member function isOnline() on a non-object classes/OssnChat.php on line 146.
+ * PHP WARNING: "Division by zero" in file OssnObject.php (line 276).
+ * Component installer problems with certain zip - archives #420.
+ * Chat linefeed problem #278.
+ * Notifications for group comments #435.
+ * There is no need to add notification if no hook is present.
+ * Unwanted refresh in message window #416.
+ * [OSSN 3.x] OssnEmbed in settings #466.
+ * CSS: Pagination with more than 10 users #468.
+ * Ossnblack theme white page issue #469.
+ * [OSSN 3.x] Bug double post if 1 or 2 white line after the text in a post #471.
+ * Add compressed version of jquery.
+ * Remove JS files that was part of BuddyexpressDesk repository.
+
+Additions:
+	
+ * Implementd plugins for components.
+ * Browser css cache issue.
+ * Store profile image in computer cache.
+ * Store profile cover in computer cache.
+ * Store photos on wall into cache.
+ * Store group cover into cache.
+ * Get object that are requried only (offset).
+ * Get entities that are required only (offset).
+ * Get annotation that are required only (offset).
+ * Allow users to login with email also.
+ * Allow admins to search unvalidated users.
+ * New backend theme.
+ * Add time_created in users table.
+ * We need to accept values in array() in setComSETTINGS #434.
+ * Feature request: multilanguage themes #281.
+ * New js function Ossn.trigger_message.
+ * Make actions valid for xhr, there is no need to use json_encode for simple actions.
+ * 3 state logic for notifications #202.
+ * Ossn Wall ajax post.
+ * Allow duplicate group names? #112.
+ * Match file during upload #402.
+ * Only show stable_version in available updates.
+ * Show a loading icon before send message.
+ * Move 'Send' button 10px top bottom
+ * Addition of PHP ZipArchive and allow_url_fopen check during installation.
+ * New non-core component: https://github.com/opensource-socialnetwork/SMTP
+ * Lift a installation limitation for php 5.6.
+ * Allow users to change their default language.
+ * Allow group owner to delete group.
+ * Add 'Are you sure?' exception in js.core
+ * Move pages to system/plugins/default

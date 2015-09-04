@@ -1,0 +1,7 @@
+[04-Sep-2015 04:06:05 Asia/Manila] PHP WARNING: 2015-09-04 04:06:05 (PHT): "file_get_contents(https://api.github.com/repos/opensource-socialnetwork/opensource-socialnetwork/contents/opensource-socialnetwork.xml): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+" in file /var/www/mobileapp.dev/ossn/libraries/ossn.lib.system.php (line 725)
+[04-Sep-2015 04:06:16 Asia/Manila] PHP WARNING: 2015-09-04 04:06:16 (PHT): "file_get_contents(https://api.github.com/repos/opensource-socialnetwork/opensource-socialnetwork/contents/opensource-socialnetwork.xml): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+" in file /var/www/mobileapp.dev/ossn/libraries/ossn.lib.system.php (line 725)
+[04-Sep-2015 18:35:28 Asia/Manila] PHP WARNING: 2015-09-04 18:35:28 (PHT): "file_get_contents(): SSL: crypto enabling timeout" in file /var/www/mobileapp.dev/ossn/libraries/ossn.lib.system.php (line 725)
+[04-Sep-2015 18:35:28 Asia/Manila] PHP WARNING: 2015-09-04 18:35:28 (PHT): "file_get_contents(): Failed to enable crypto" in file /var/www/mobileapp.dev/ossn/libraries/ossn.lib.system.php (line 725)
+[04-Sep-2015 18:35:28 Asia/Manila] PHP WARNING: 2015-09-04 18:35:28 (PHT): "file_get_contents(https://api.github.com/repos/opensource-socialnetwork/opensource-socialnetwork/contents/opensource-socialnetwork.xml): failed to open stream: operation failed" in file /var/www/mobileapp.dev/ossn/libraries/ossn.lib.system.php (line 725)
